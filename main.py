@@ -8,10 +8,10 @@ import io
 
 app = Flask(__name__)
 
-@app.rout('/')
-def home(){
-    return "OLa from flask"
-}
+@app.route('/')
+def home():
+    return f" list of maps that can be returned:{os.listdir('./maps')}"
+
 
 @app.route("/map/<m>")
 def get_map(m):
