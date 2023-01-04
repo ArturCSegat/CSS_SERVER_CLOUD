@@ -1,6 +1,6 @@
 # CSS_SERVER_CLOUD
-Servidor nuvem para armazenamento de mapas de CSS, no momento limitado a 512mb por causa do hsot puto
+Servidor nuvem para armazenamento de mapas de Counter Strike Source, possibilita salvar mapas recebidos do gamebanana assim como apenas retornar o arquivo desejado sem armazenar na pool.
 
-#TODO
+## TODO
 
-sla se pa teria q mudar o host pq esse é uma merda, algumas outras rotas fds tmb
+* passar pro host eu acho (rezar pra funcionar sem modificações) 
